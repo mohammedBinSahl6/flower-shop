@@ -7,6 +7,9 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
+    'plugin:prettier/recommended',
+    'plugin:import/errors',
+    'plugin:import/warnings',
   ],
   overrides: [
     {
@@ -33,12 +36,8 @@ module.exports = {
     'import/extensions': [
       'error',
       'ignorePackages',
-      {
-        js: 'never',
-        jsx: 'never',
-        ts: 'never',
-        tsx: 'never',
-      },
+   
+      
     ],
     'react/function-component-definition': 'off',
     'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
