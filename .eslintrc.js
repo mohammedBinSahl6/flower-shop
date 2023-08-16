@@ -33,12 +33,7 @@ module.exports = {
     'arrow-parens': 'off',
     'react/require-default-props': 'off',
     'import/prefer-default-export': 'off',
-    'import/extensions': [
-      'error',
-      'ignorePackages',
-   
-      
-    ],
+    'import/extensions': ['error', 'ignorePackages'],
     'react/function-component-definition': 'off',
     'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
   },
